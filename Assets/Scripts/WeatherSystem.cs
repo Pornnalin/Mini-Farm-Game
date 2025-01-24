@@ -40,6 +40,7 @@ public class WeatherSystem : MonoBehaviour
         {
             currentTime = timeValue;
             nextWeatherEvent.Invoke();
+
         }
 
         DisplayeTime(currentTime);
@@ -54,11 +55,7 @@ public class WeatherSystem : MonoBehaviour
 
         currentWeather = (weatherType)currentIndex;
 
-        if (PlayerController.instance.currentItem != "")
-        {
-            PlayerController.instance.currentItem = "";
-            GameManager.instance.notification.notiEvent.Invoke("Clear Seed in hand ");
-        }
+        PlayerController.instance.currentItem = "";
 
         Debug.Log("Weather changed to: " + currentWeather);
     }
