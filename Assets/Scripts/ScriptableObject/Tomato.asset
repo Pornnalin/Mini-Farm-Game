@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1293d1b5ea9ea45842b6aaf844f572, type: 3}
+  m_Name: Tomato
+  m_EditorClassIdentifier: 
+  plantName: Tomato
+  seedSprite: {fileID: 21300000, guid: da65c071a0779e44987937a7dd195941, type: 3}
+  sproutSprite: {fileID: 21300000, guid: d131251c239da5b4081c0168f85564c7, type: 3}
+  fullyGrownSprite: {fileID: 21300000, guid: 11dd46e3bdb388746b5a096e5293251f, type: 3}
+  itemHarvestSprite: {fileID: 21300000, guid: 50ba82667a4644040958c66d56d374da, type: 3}
+  growthDuration: 20
+  requiredWeather: summer
+  seedBoxSprite: {fileID: 21300000, guid: 3f6f8e56e51cafe49997b034005c528e, type: 3}
+  seedName: tomato_seed
+  seedPodName: tomato_pod
+  itemName: tomato_item
+  amount: 10

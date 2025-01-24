@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1293d1b5ea9ea45842b6aaf844f572, type: 3}
+  m_Name: Cucumber
+  m_EditorClassIdentifier: 
+  plantName: Cucumber
+  seedSprite: {fileID: 21300000, guid: 77b2cc740bbdf6544b449240225fd134, type: 3}
+  sproutSprite: {fileID: 21300000, guid: 7baba6e871ef234449c0db1b9e2ac116, type: 3}
+  fullyGrownSprite: {fileID: 21300000, guid: 79e5d2f2bb8c6c945a29128e51694a67, type: 3}
+  itemHarvestSprite: {fileID: 21300000, guid: c3bf23bc963ea654ca31af38a5eb6f15, type: 3}
+  growthDuration: 20
+  requiredWeather: winter
+  seedBoxSprite: {fileID: 21300000, guid: 6f0e498132298a24596423679480dbb6, type: 3}
+  seedName: cucumber_seed
+  seedPodName: cucumber_pod
+  itemName: cucumber_item
+  amount: 10
